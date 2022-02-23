@@ -1,3 +1,4 @@
+from curses import halfdelay
 import random
 AantalSpellen = random.randint(3,10)
 spelList = ['Monoploly', 'Yathzee', 'Bridge', 'Poker', 'Pesten', 'Mens erger je niet', 'Cluedo']
